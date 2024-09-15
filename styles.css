@@ -1,5 +1,9 @@
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 header {
-    background-color: #000000;
     padding: 10px 0;
 }
 
@@ -26,7 +30,30 @@ nav ul li a {
     padding: 8px 16px;
 }
 
-nav ul li a:hover {
-    background-color: #575757;
-    border-radius: 4px;
+/* Light Mode Styles */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.light-mode nav ul li a {
+    color: black;
+}
+
+.highlights {
+    background-color: antiquewhite;
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
 }

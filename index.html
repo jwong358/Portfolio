@@ -2,9 +2,11 @@
 <html>
     <head>
         <title>Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-    <body>
+    <body class="dark-mode">
         <header>
             <nav>
                 <ul>
@@ -12,10 +14,20 @@
                     <div class="nav-items">
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a><button id="theme-toggle">Toggle Light/Dark Mode</button><script src="script.js"></script></a></li>
                     </div>
                 </ul>
             </nav>
         </header>
+        
+        <div class="highlights">
+            <h1>Hightlights</h1>
+            <div class="slider">
+                <img src="image1.jpg" class="slide" alt="Image 1">
+                <img src="image2.jpg" class="slide" alt="Image 2">
+                <img src="image3.jpg" class="slide" alt="Image 3">
+            </div>
+        </div>
 
     </body>
 </html>
