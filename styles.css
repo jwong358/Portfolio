@@ -40,7 +40,7 @@ body.light-mode nav ul li a {
     color: black;
 }
 
-.highlights {
+.slider {
     background-color: antiquewhite;
     position: relative;
     max-width: 600px;
@@ -48,7 +48,7 @@ body.light-mode nav ul li a {
     overflow: hidden;
 }
 
-.slider {
+.slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
